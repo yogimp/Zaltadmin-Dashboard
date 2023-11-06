@@ -1,4 +1,4 @@
-@import '../../styles/variables.scss';
+@import "../../styles/variables.scss";
 
 .add {
     width: 100vw;
@@ -14,10 +14,6 @@
     .modal {
         padding: 50px;
         border-radius: 10px;
-        -webkit-border-radius: 10px;
-        -moz-border-radius: 10px;
-        -ms-border-radius: 10px;
-        -o-border-radius: 10px;
         background-color: $main-bg;
         position: relative;
 
@@ -26,12 +22,14 @@
             font-size: 24px;
             color: $soft-color;
         }
+
         .close {
             position: absolute;
             top: 10px;
             right: 10px;
             cursor: pointer;
         }
+
         form {
             display: flex;
             flex-wrap: wrap;
@@ -48,6 +46,7 @@
                 label {
                     font-size: 14px;
                 }
+
                 input {
                     padding: 10px;
                     background-color: transparent;
@@ -55,12 +54,9 @@
                     outline: none;
                     border: 1px solid $soft-color;
                     border-radius: 3px;
-                    -webkit-border-radius: 3px;
-                    -moz-border-radius: 3px;
-                    -ms-border-radius: 3px;
-                    -o-border-radius: 3px;
                 }
             }
+
             button {
                 width: 100%;
                 padding: 10px;
